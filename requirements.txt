@@ -10,5 +10,6 @@ requests
 flask-sqlalchemy
 flask-wtf
 flask-login
+gunicorn==20.0.4
 
 

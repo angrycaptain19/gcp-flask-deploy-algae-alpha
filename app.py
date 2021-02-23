@@ -53,13 +53,10 @@ def prepare_image(image, target):
     input_arr = img_to_array(image)
     # image = np.expand_dims(image, axis=0)
     # image = imagenet_utils.preprocess_input(image)
-    
+
     input_arr = np.array([input_arr])  # Convert single image to a batch.
     # return the processed image
     return input_arr
-
-
-    print('Model loaded. View on http://127.0.0.1:5000/')
  
 
 
